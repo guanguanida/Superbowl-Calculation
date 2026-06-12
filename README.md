@@ -1,6 +1,8 @@
 # Superbowl-Calculation
 # 🥣 超级碗热量记录器
 
+https://guanguanida.github.io/Superbowl-Calculation/
+
 > 本工具帮助您轻松记录每餐超级碗热量，同时结合基础代谢、运动消耗，智能计算每日热量缺口，让体重管理更加科学透明。
 
 ## ✨ 主要功能
