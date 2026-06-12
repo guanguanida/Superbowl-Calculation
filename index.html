@@ -147,6 +147,16 @@
         .legend-color { display: inline-block; width: 14px; height: 14px; border-radius: 4px; margin-right: 6px; }
         footer { text-align: center; font-size: 0.7rem; margin-top: 10px; color: #b97f44; }
         .copyright-line { background: rgba(255,243,224,0.6); padding: 6px 0; border-radius: 40px; margin-top: 12px; font-size: 0.7rem; }
+        .github-link {
+            color: #e67e22 !important;
+            text-decoration: underline;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        .github-link:hover {
+            color: #b85c0f !important;
+            text-decoration: underline;
+        }
         .activity-form-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end; }
         .more-btn { background: #e9dccf; color: #734c1a; font-size: 0.8rem; margin-top: 8px; width: 100%; justify-content: center; }
         .modal {
@@ -274,7 +284,18 @@
         <div class="backup-bar"><button type="button" id="exportDataBtn" class="icon-btn"><i class="fas fa-download"></i> 备份全部数据</button><button type="button" id="importDataBtn" class="icon-btn"><i class="fas fa-upload"></i> 恢复全部数据</button><input type="file" id="importFileInput" accept=".json" style="display:none" /></div>
         <div class="storage-note"><i class="fas fa-database"></i> 所有记录自动保存在此浏览器中，关闭页面不会丢失。可导出备份。</div>
     </div>
-    <footer><div>⚡ 食材热量基于官方数据</div><div class="copyright-line">© 2026 Ida Guan. 未经授权不得复制、修改或用于商业用途。</div></footer>
+    <footer>
+        <div>⚡ 食材热量基于官方数据</div>
+        <div class="copyright-line">© 2026 Ida Guan. 未经授权不得复制、修改或用于商业用途。</div>
+        <div style="margin-top: 12px; font-size: 0.7rem;">
+            🌟 如果觉得这个工具对你有帮助，欢迎到 
+            <a href="https://github.com/guanguanida/Superbowl-Calculation" class="github-link" target="_blank" rel="noopener noreferrer">
+                GitHub 仓库
+            </a> 
+            点个 ⭐ 支持一下～<br>
+            <span style="font-size: 0.65rem; color: #9b6e3e;">📎 仓库地址：https://github.com/guanguanida/Superbowl-Calculation (点击链接或复制到浏览器访问)</span>
+        </div>
+    </footer>
 </div>
 
 <!-- Modal 弹窗 -->
